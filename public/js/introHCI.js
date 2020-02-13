@@ -29,7 +29,7 @@ function addProjectDetails(e) {
 	console.log("User clicked on project " + idNumber);
 	var url = 'http://localhost:3000'
 	var url2 = 'https://lab6-baikhsam.herokuapp.com/'
-	$.get(url2 + "/project/" + idNumber, callBackFn)
+	$.get(url2 + "project/" + idNumber, callBackFn)
 	console.log("URL called: " + "http://localhost:3000/project/" + idNumber);
 }
 
